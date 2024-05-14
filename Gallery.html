@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        td{
+            border: 2px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Art Gallery</h1>
+    <table style="border-style: groove; border-color: rebeccapurple; margin-left: 150px;" >
+        <tr>
+            <td><img src="./Images/1.jpg" style="height: 200px; width: 200px;"></td>
+            <td><img src="./Images/9.jpg" style="height: 200px; width: 300px;"></td>
+            <td rowspan="2"><img src="./Images/4.jpg" style="height: 410px; width: 200px;"></td>
+            <td><img src="./Images/10.jpg" style="height: 200px; width: 290px;"></td>
+            
+        </tr>
+        <tr>
+            <td><img src="./Images/2.jpg" style="height: 200px; width: 200px;"></td>
+            <td><img src="./Images/5.jpg" style="height: 200px; width: 300px;"></td>
+            <td colspan="2"><img src="./Images/7.jpg" style="height: 200px; width: 290px;"></td>
+            
+        </tr>
+        <tr>
+            <td><img src="./Images/8.jpg" style="height: 200px; width: 200px;"></td>
+            <td rowspan="2"><img src="./Images/3.jpg" style="height: 410px; width: 300px;"></td>
+            <td><img src="./Images/2.jpg" style="height: 200px; width: 200px;"></td>
+            <td rowspan="2"><img src="./Images/6.jpg" style="height: 410px; width: 290px;"></td>
+        </tr>
+        <tr>
+            <td><img src="./Images/9.jpg" style="height: 200px; width: 200px;"></td>
+            <td><img src="./Images/8.jpg" style="height: 200px; width: 200px;"></td>
+        </tr>
+        <form>
+            <a href="./login.html"><button type="button">Go Back</button></a>
+        </form>
+    </table>
+</body>
+</html>
